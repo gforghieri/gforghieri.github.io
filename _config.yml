@@ -52,13 +52,13 @@ stackoverflow: 10401945/gforghieri
 # lanyrd: mylanyrd
 email: gi.forghieri@gmail.com
 
-authors:
-    johndoe:
-        name: Giuliano Forghieri
-        bio: Software Engineer | Investor | CS&E student
-        external-image: true
-        picture: assets/images/profile.jpg
-        twitter: g_forghieri
+#authors:
+#    johndoe:
+#        name: Giuliano Forghieri
+#        bio: Software Engineer | Investor | CS&E student
+#        external-image: true
+#        picture: assets/images/profile.jpg
+#        twitter: g_forghieri
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
