@@ -1,6 +1,6 @@
 # main text of home
 name: Giuliano Forghieri
-bio: A Man who travels the world eating noodles
+bio: Software Engineer | Investor | Computer Science & Engineering student
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -34,23 +34,23 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: myfacebook
+# twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: gforghieri
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: gforghieri
 # gitlab: mygitlab
 # lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
+stackoverflow: 10401945/gforghieri
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: gi.forghieri@gmail.com
 
 authors:
     johndoe:
@@ -69,7 +69,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
