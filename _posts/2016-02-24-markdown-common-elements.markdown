@@ -1,7 +1,7 @@
 ---
 title: "Markdown Common Elements"
 layout: post
-date: 2016-02-24 22:44
+date: 2020-03-12 12:30
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -9,8 +9,8 @@ tag:
 - elements
 star: true
 category: blog
-author: johndoe
-description: Markdown summary with different options
+author: gforghieri
+description: Hello World!
 ---
 
 ## Basic formatting
