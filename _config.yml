@@ -56,7 +56,7 @@ authors:
     johndoe:
         name: John Doe
         bio: A Man who travels the world eating noodles
-        external-image: false
+        external-image: true
         picture: assets/images/profile.jpg
         twitter: g_forghieri
 
