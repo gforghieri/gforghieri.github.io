@@ -1,15 +1,15 @@
 ---
+author: gforghieri
 title: "Hello World!"
 layout: post
-date: 2020-03-12 22:10
-image: /assets/images/markdown.jpg
+date:
+image:
 headerImage: false
 tag:
 - markdown
 - components
 - extra
 category: blog
-author: gforghieri
 description: Hello World!
 ---
 
