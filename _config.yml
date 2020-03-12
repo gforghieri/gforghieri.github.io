@@ -17,7 +17,7 @@ resume-external: true
 resume-url: resume.pdf
 
 url: https://gforghieri.github.io
-# your url: https://gforghieri.github.io
+your url: https://gforghieri.github.io
 
 permalink: /:title/
 
@@ -84,7 +84,7 @@ blog: true
 read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: true
+show-tags: false
 
 # related posts inside a post?
 related: true
