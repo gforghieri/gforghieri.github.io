@@ -2,7 +2,7 @@
 author: gforghieri
 title: "Hello World!"
 layout: post
-date:
+date: 2020-03-12 11:00
 image:
 headerImage: false
 tag:
