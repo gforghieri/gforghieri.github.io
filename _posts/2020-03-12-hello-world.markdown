@@ -4,11 +4,8 @@ title: "Hello World!"
 layout: post
 date: 2020-03-12 11:00
 image:
-headerImage: false
+headerImage: true
 tag:
-- markdown
-- components
-- extra
 category: blog
 description: Hello World!
 ---
