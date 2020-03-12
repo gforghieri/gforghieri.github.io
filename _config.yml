@@ -16,8 +16,8 @@ resume: true
 resume-external: false
 resume-url: resume.pdf
 
-url: https://gforghieri.github.io
-your url: https://gforghieri.github.io
+url: http://gforghieri.github.io
+# your url: http://gforghieri.github.io
 
 permalink: /:title/
 
