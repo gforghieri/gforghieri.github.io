@@ -23,16 +23,16 @@ For me, code is (just) a really efficient tool to get stuff done and deep down I
 <h2>Skills</h2>
 <ul class="skill-list">
 
-<p>Languages:</p>
+Languages:
 <li>Java, Python, TypeScript, Scala, JavaScript, C / C++, SQL, Bash </li>
 
-<p>Frameworks:</p>
+Frameworks:
 <li>Angular, Django, Spring, Node.js, Express, Jest, Cypress</li>
 
-<p>Methodologies:</p>
+Methodologies:
 <li>Agile & Scrum, Functional Programming, Software Testing, Debugging, NoSQL</li>
+Other tools:
 
-<p>Other tools:</p>
 <li>REST, Git, Unix, Linux, Chrome DevTools, Docker, Kubernetes, Spark, Flink</li>
 
 </ul>
