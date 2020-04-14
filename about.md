@@ -21,10 +21,18 @@ I'm focused on user-experience and pragmatic solutions.</p>
 For me, code is (just) a really efficient tool to get stuff done and deep down I am a generalist engineer/product person.</p>
 
 <h2>Skills</h2>
+<ul class="skill-list">
 
-[comment]: <> (<ul class="skill-list">)
+<p>Languages:</p>
+<li>Java, Python, TypeScript, Scala, JavaScript, C / C++, SQL, Bash </li>
 
-**Languages**: Java, Python, TypeScript, Scala, JavaScript, C / C++, SQL, Bash <br/>
-**Frameworks**: Angular, Django, Spring, Node.js, Express, Jest, Cypress <br/>
-**Methodologies**: Agile & Scrum, Functional Programming, Software Testing, Debugging, NoSQL <br/>
-**Other tools**: REST, Git, Unix, Linux, Chrome DevTools, Docker, Kubernetes, Spark, Flink <br/>
+<p>Frameworks:</p>
+<li>Angular, Django, Spring, Node.js, Express, Jest, Cypress</li>
+
+<p>Methodologies:</p>
+<li>Agile & Scrum, Functional Programming, Software Testing, Debugging, NoSQL</li>
+
+<p>Other tools:</p>
+<li>REST, Git, Unix, Linux, Chrome DevTools, Docker, Kubernetes, Spark, Flink</li>
+
+</ul>
