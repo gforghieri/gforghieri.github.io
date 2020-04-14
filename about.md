@@ -21,6 +21,7 @@ I'm focused on user-experience and pragmatic solutions.</p>
 For me, code is (just) a really efficient tool to get stuff done and deep down I am a generalist engineer/product person.</p>
 
 <h2>Skills</h2>
+
 <ul class="skill-list">
 
 Languages:
