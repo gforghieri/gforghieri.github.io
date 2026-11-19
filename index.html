@@ -12,17 +12,22 @@
 <meta property="og:url" content="https://gforghieri.github.io/">
 <meta property="og:image" content="https://gforghieri.github.io/assets/og.jpg">
 <meta name="color-scheme" content="light dark">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f2328'/%3E%3Ctext x='32' y='42' font-family='system-ui,sans-serif' font-size='28' font-weight='700' fill='%23fff' text-anchor='middle'%3EGF%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Giuliano Forghieri","jobTitle":"Software Engineer","worksFor":{"@type":"Organization","name":"Schuberg Philis"},"address":{"@type":"PostalAddress","addressLocality":"Leiden","addressCountry":"NL"},"url":"https://gforghieri.github.io/","sameAs":["https://www.linkedin.com/in/gforghieri"]}
 </script>
 <style>
 :root{--bg:#fff;--fg:#1f2328;--muted:#59636e;--rule:#d1d9e0;--accent:#0052a3;--tag:#f3f5f7}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#e6e8eb;--muted:#9aa4af;--rule:#2b313a;--accent:#6cb6ff;--tag:#1a1f26}}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1115;--fg:#e6e8eb;--muted:#9aa4af;--rule:#2b313a;--accent:#6cb6ff;--tag:#1a1f26;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0f1115;--fg:#e6e8eb;--muted:#9aa4af;--rule:#2b313a;--accent:#6cb6ff;--tag:#1a1f26;color-scheme:dark}
+:root[data-theme=light]{color-scheme:light}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-main{max-width:46rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+main{position:relative;max-width:46rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+#theme{position:absolute;top:1rem;right:1.25rem;width:2.25rem;height:2.25rem;display:grid;place-items:center;border:1px solid var(--rule);border-radius:50%;background:none;color:var(--fg);cursor:pointer;padding:0}
+#theme:hover{border-color:var(--muted)}
 a{color:var(--accent);text-underline-offset:2px}
 header{display:flex;gap:1.25rem;align-items:center;margin-bottom:2rem}
 header img{width:96px;height:96px;border-radius:50%;flex:none;object-fit:cover}
@@ -46,11 +51,12 @@ dt{font-weight:600}
 dd{margin:0}
 footer{margin-top:3rem;color:var(--muted);font-size:.85rem}
 @media (max-width:540px){header{flex-direction:column;align-items:flex-start}dl{grid-template-columns:1fr}dt{margin-top:.4rem}}
-@media print{main{padding:0}a{color:inherit;text-decoration:none}}
+@media print{main{padding:0}a{color:inherit;text-decoration:none}#theme{display:none}}
 </style>
 </head>
 <body>
 <main>
+<button id="theme" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
 <header>
   <img src="assets/profile.webp" alt="Giuliano Forghieri" width="96" height="96">
   <div>
@@ -148,5 +154,6 @@ footer{margin-top:3rem;color:var(--muted);font-size:.85rem}
 
 <footer>Updated November 2026</footer>
 </main>
+<script>document.getElementById("theme").onclick=function(){var r=document.documentElement,c=r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"),n=c==="dark"?"light":"dark";r.dataset.theme=n;try{localStorage.setItem("theme",n)}catch(e){}};</script>
 </body>
 </html>
